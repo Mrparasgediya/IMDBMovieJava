@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90efca56-65d8-42e6-a6df-b33a93807df8" name="Changes" comment="ENH: Initialized project">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imdb/Main.java" afterDir="false" />
+    <list default="true" id="90efca56-65d8-42e6-a6df-b33a93807df8" name="Changes" comment="ENH: Create com.imdb package and add main file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imdb/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imdb/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imdb/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imdb/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imdb/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imdb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imdb/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -70,12 +73,20 @@
       <option name="project" value="LOCAL" />
       <updated>1675251853905</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ENH: Create com.imdb package and add main file">
+      <created>1675252761678</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675252761678</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ENH: Initialized project" />
-    <option name="LAST_COMMIT_MESSAGE" value="ENH: Initialized project" />
+    <MESSAGE value="ENH: Create com.imdb package and add main file" />
+    <option name="LAST_COMMIT_MESSAGE" value="ENH: Create com.imdb package and add main file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
