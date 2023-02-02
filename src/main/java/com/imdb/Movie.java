@@ -1,15 +1,15 @@
 package com.imdb;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class Movie {
-  private ArrayList<Director> directors;
-  private ArrayList<Genre>  genres;
-  private ArrayList<Actor> actors;
+  private List<Director> directors;
+  private List<Genre>  genres;
+  private List<Actor> actors;
   private String name;
   private double rating;
 
-  public Movie(ArrayList<Director> directors, ArrayList<Genre> genres, ArrayList<Actor> actors,
+  public Movie(List<Director> directors, List<Genre> genres, List<Actor> actors,
       String name, double rating) {
     this.directors = directors;
     this.genres = genres;
